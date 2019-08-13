@@ -1,4 +1,18 @@
 #!/usr/bin/env bash
+
+#
+# Upgrade everything
+#
+sudo apt-get -y update && sudo apt-get -y full-upgrade
+
+#
+# Create /work folder
+#
+
+sudo mkdir /work
+sudo chown $USER /work
+sudo chmod -R 777 /work
+
 #
 # Pull dotfiles
 #
