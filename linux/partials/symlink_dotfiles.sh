@@ -16,7 +16,7 @@ ln -s $HOME/dotfiles/software/cli/vim/vimrc $HOME/.ideavimrc
 echo "Symlinking fish"
 rm -rf $HOME/.config/fish
 ln -s $HOME/dotfiles/software/cli/fish $HOME/.config/fish
-chsh -s /usr/bin/fish $USER
+sudo chsh -s /usr/bin/fish $USER
 
 # --------------------------------------------------------------------------------
 # symlink terminator
