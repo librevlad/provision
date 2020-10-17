@@ -10,7 +10,7 @@ sudo apt -y install shutter i3lock terminator rofi vlc totem \
 kdenlive audacity telegram-desktop filezilla qbittorrent pavucontrol aircrack-ng reaver \
 guvcview remmina x11vnc wine64 playonlinux arc-theme lxappearance arandr ecryptfs-utils \
 samba xclip xsel gparted kodi breeze breeze-gtk-theme breeze-icon-theme byobu speedtest-cli \
-kodi-addons-dev shutter fonts-firacode pcmanfm feh scrot compton python-pip libreoffice blueman adb qemu-kvm davfs2 volti
+kodi-addons-dev shutter fonts-firacode pcmanfm feh scrot compton python-pip libreoffice blueman adb qemu-kvm davfs2 pasystray
 
 sudo snap install phpstorm --classic
 sudo snap install skype --classic
