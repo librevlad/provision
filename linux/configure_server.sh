@@ -13,7 +13,7 @@ sudo mkdir ~/.config
 sudo mkdir /work
 sudo chown $USER /work
 sudo chmod -R 777 /work
-
+cd ~
 #
 # Pull dotfiles
 #
