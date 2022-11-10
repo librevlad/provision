@@ -8,13 +8,12 @@ sudo add-apt-repository ppa:shutter/ppa
 # PPA for i3-gaps
 sudo add-apt-repository ppa:regolith-linux/release
 
-
-
-
+# deadbeef PPA
+sudo add-apt-repository ppa:starws-box/deadbeef-player
 
 sudo apt-get update
 
-sudo apt -y install shutter i3-gaps i3lock terminator rofi vlc totem \
+sudo apt -y install shutter i3-gaps i3lock terminator rofi vlc totem deadbeef rhythmbox \
 kdenlive audacity telegram-desktop filezilla qbittorrent pavucontrol aircrack-ng reaver \
 guvcview remmina x11vnc wine64 playonlinux arc-theme lxappearance arandr ecryptfs-utils \
 samba xclip xsel gparted kodi breeze breeze-gtk-theme breeze-icon-theme byobu speedtest-cli \
